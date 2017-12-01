@@ -68,11 +68,7 @@ Comes with lightweight example front-end script which uses the pool's AJAX API.
 
 #### Pools Using This Software
 
-* http://xminingpool.com
-* http://xmr.poolto.be
-* https://moneropool.com
-* http://monero.crypto-pool.fr
-* https://minexmr.com
+* 
 
 
 Usage
@@ -105,7 +101,7 @@ you are using - a good place to start with redis is [data persistence](http://re
 Clone the repository and run `npm update` for all the dependencies to be installed:
 
 ```bash
-git clone https://github.com/zone117x/node-cryptonote-pool.git pool
+git clone https://github.com/snoski3/node-cryptonote-pool.git pool
 cd pool
 npm update
 ```

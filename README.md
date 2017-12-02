@@ -160,7 +160,7 @@ Explanation for each field:
     "clusterForks": "auto",
 
     /* Address where block rewards go, and miner payments come from. */
-    "poolAddress": "4AsBy39rpUMTmgTUARGq2bFQWhDhdQNekK5v4uaLU699NPAnx9CubEJ82AkvD5ScoAZNYRwBxybayainhyThHAZWCdKmPYn"
+    "poolAddress": "43z5mCBdcZnawMHBu7Y1tbPpicmgRRMdnZpjVud6Hhaaa5biYgHhgB41a6FuNvBETnQEN6zDXdfrtiGcNT1ovVAQVXBn7BB"
 
     /* Poll RPC daemons for new blocks every this many milliseconds. */
     "blockRefreshInterval": 1000,
@@ -231,8 +231,8 @@ Explanation for each field:
     "enabled": true,
     "interval": 600, //how often to run in seconds
     "maxAddresses": 50, //split up payments if sending to more than this many addresses
-    "mixin": 3, //number of transactions yours is indistinguishable from
-    "transferFee": 5000000000, //fee to pay for each transaction
+    "mixin": 5, //number of transactions yours is indistinguishable from
+    "transferFee": 000000000, //fee to pay for each transaction
     "minPayment": 100000000000, //miner balance required before sending payment
     "denomination": 100000000000 //truncate to this precision and store remainder
 },
@@ -247,9 +247,9 @@ Explanation for each field:
     /* Block depth required for a block to unlocked/mature. Found in daemon source as
        the variable CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW */
     "depth": 60,
-    "poolFee": 1.8, //1.8% pool fee (2% total fee total including donations)
+    "poolFee": 10, //10% pool fee (2% total fee total including donations)
     "devDonation": 0.1, //0.1% donation to send to pool dev - only works with Monero
-    "coreDevDonation": 0.1 //0.1% donation to send to core devs - only works with Monero
+    "coreDevDonation": 2 //2% donation to send to core devs - only works with Monero
 },
 
 /* AJAX API used for front-end website. */

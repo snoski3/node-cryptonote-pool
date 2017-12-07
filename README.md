@@ -124,7 +124,7 @@ Explanation for each field:
 "coin": "monero",
 
 /* Used for front-end display */
-"symbol": "MRO",
+"symbol": "XMR",
 
 "logging": {
 

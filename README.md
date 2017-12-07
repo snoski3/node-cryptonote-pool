@@ -232,7 +232,7 @@ Explanation for each field:
     "interval": 600, //how often to run in seconds
     "maxAddresses": 50, //split up payments if sending to more than this many addresses
     "mixin": 5, //number of transactions yours is indistinguishable from
-    "transferFee": 000000000, //fee to pay for each transaction
+    "transferFee": 0, //fee to pay for each transaction
     "minPayment": 100000000000, //miner balance required before sending payment
     "denomination": 100000000000 //truncate to this precision and store remainder
 },
